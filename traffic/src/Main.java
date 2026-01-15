@@ -10,7 +10,10 @@ public class Main {
 //        test.updatePrice(prt, newPrice);
 //        System.out.println(prt.price +":"+ newPrice);
 
-        TrafficLightSystem trafficLightSystem = new TrafficLightSystem();
-        trafficLightSystem.displayInstructions();
+//        TrafficLightSystem trafficLightSystem = new TrafficLightSystem();
+//        trafficLightSystem.displayInstructions();
+
+        BMICalculator bmicalculator = new BMICalculator();
+        bmicalculator.calculateBmi();
     }
 }
